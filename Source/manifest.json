@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
-	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"name": "Chrome Web Tools",
+	"version": "2.7",
+	"description": "Additional functionality for web developers",
 	"content_scripts": 
 	[
 		{
@@ -10,6 +10,14 @@
 			"js": ["content_script.js"],
 			"run_at": "document_end"
 		}
-	]
+	],
+	"icons": {
+		"16": "icon-256.png",
+		"32": "icon-256.png",
+		"48": "icon-256.png",
+		"64": "icon-256.png",
+		"128": "icon-256.png",
+		"256": "icon-256.png"
+	}
 }
 
